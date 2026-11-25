@@ -1,6 +1,6 @@
 /* ===== AYARLAR ===== */
-const WHATSAPP_NO = "905375264464";
-const MAP_URL = "https://maps.app.goo.gl/pefyjLuXcUvEDgaU8";
+const WHATSAPP_NO = "905555555555";
+const MAP_URL = "https://maps.app.goo.gl/P1ajh4xiKMe7cpTE7";
 const SERVICES = {"Protez Tırnak":900,"Kalıcı Oje":400,"NailArt Tasarım":50,"Manikür":350,"Pedikür":450,"Spa Bakım":600,"Söküm":200};
 const MIN={"Protez Tırnak":120,"Kalıcı Oje":45,"NailArt Tasarım":30,"Manikür":45,"Pedikür":60,"Spa Bakım":60,"Söküm":20}; /* tahmini süreler (dk) – düzenleyebilirsiniz */
 /* Çalışma saatleri .env > OPENING_HOURS'tan gelir; randevu saatleri açılıştan itibaren saat başı üretilir */
@@ -10,7 +10,7 @@ const TIMES=[];for(let m=toMin(OPEN_T);m<CLOSE;m+=60)TIMES.push(String(Math.floo
 /* Kampanya şeridi: boş bırakırsanız gizlenir */
 const CAMPAIGN = "Yeni sezon tasarımlar geldi — randevunuzu şimdi oluşturun →";
 /* Sosyal medya linkleri: boş olanlar gösterilmez */
-const SOCIAL = {Instagram:"https://instagram.com/mertbrody", TikTok:"https://tiktok.com/mertbrody", YouTube:"https://youtube.com/mertbrody"};
+const SOCIAL = {Instagram:"https://instagram.com/bcnails38", TikTok:"https://tiktok.com/bcnails38", YouTube:"https://youtube.com/bcnails38"};
 /* Google Maps > Paylaş > Harita yerleştir > iframe içindeki src adresini yapıştırın (boşsa gösterilmez) */
 const MAP_EMBED = "";
 /* Gerçek müşteri yorumları: {n:"Ad S.", t:"Yorum metni", s:5} (boşsa bölüm gösterilmez) */
